@@ -1,0 +1,373 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    /* padding: 15px; */
+    justify-content: space-evenly;
+    background-color: #6f6af7;
+    color: white;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    height: 30px;
+    text-align: center;
+    top: 10px;
+
+}
+.dappr{
+    height: 63px;
+    width: 215px;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.home{
+    text-align: center;
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+.icon{
+    width: 100px;
+    height: 75px;
+    margin-top: 20px;
+    right: 50px;
+
+}
+.input {
+    height: 23px;
+    width: 110px;
+    margin-left: 105px;
+  }
+  .link input {
+    font-size: 25px;
+    border-radius: 20px;
+  }
+  .search-icon {
+    color: black;
+    float: right;
+  
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -23px;
+  }
+  .more-icon {
+    margin-top: -17px;
+    position: absolute;
+    float: right;
+    margin-left: 27px;
+    font-size: 12px;
+  }
+  
+  .head {
+    left: 15px;
+  }
+  
+  .center {
+    position: static;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 150px;
+  }
+  .middle .img {
+    height: 450px;
+    width: 456px;
+  }
+  
+  .symbol {
+    float: right;
+    position: absolute;
+    display: absolute;
+    flex-direction: column;
+    align-self: right;
+    gap: 50px;
+    margin-top: 150px;
+    position: sticky;
+    top: 100px;
+  }
+  .symbol .facebook,
+  .whatsapp,
+  .twitter {
+    width: 35.4px;
+    height: 31.93px;
+    border: 2px solid black;
+    font-size: x-large;
+    text-align: center;
+  
+  }
+  .whatsapp {
+    color: green;
+    background-color: rgb(53, 9, 9);
+    border: 2px red solid;
+    position: sticky;
+    top: 100px;
+  }
+  .facebook {
+    color: blue;
+    background-color: rgb(17, 153, 190);
+    border: 2px red solid;
+    position: sticky;
+  }
+  .twitter {
+    color: blue;
+    background-color: gray;
+    border: 2px red solid;
+   
+  }
+  .para {
+    width: 972px;
+    height: 500px;
+    left: 634px;
+    font-size: 29px;
+    font-weight: 400px;
+    top: 289px;
+    background: #e5d8ff;
+    border: 6px solid #ffffff;
+    box-shadow: inset 3px 5px 27px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  }
+  .para p {
+    margin-top: 29px;
+    margin-left: 34px;
+  }
+  
+  .root {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    /* height: 125px;
+    width: 100vw; */
+    
+  }
+  .child1,
+  .child2,
+  .child3,
+  .child4 {
+    width: 300px;
+    height: 120px;
+    border: 3px solid black;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-size: 29px;
+    letter-spacing: 0.04em;
+  }
+  .boy1 {
+    background: #929dff;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+  }
+  .boy2 {
+    background: #734cf2;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+  }
+  .boy3 {
+    background: #d288ff;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+  }
+  
+  .boy4 {
+    background: #000000;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+  }
+  .sticker img {
+    float: right;
+    border: 3px solid white;
+    position: relative;
+    border-radius: 50px;
+    background-color: white;
+  }
+  .sticker {
+    float: right;
+    position: fixed;
+    margin-top: -150px;
+    margin-right: 50px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 100%;
+    margin-left:1350px ;
+    
+  }
+  .emoji {
+    position: relative;
+  }
+  
+  .form {
+    margin-top: 150px;
+    display: flex;
+    border: 5px solid black;
+    background-color: #483eff;
+    margin-left: 70px;
+    margin-right: 25px;
+    margin-bottom: 100px;
+  }
+  .rectangle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    text-align: center;
+  }
+  .rect1,
+  .rect2,
+  .rect3 {
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 35px;
+    line-height: 178.7%;
+    padding-top: 25px;
+  }
+  
+  .info {
+    height: 550px;
+    width: 850px;
+    border: black solid 2px;
+    margin-left: 62px;
+    margin-top: 31px;
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 19px;
+  }
+  .rect1 {
+    background-color: #bce0f6;
+    font-size: 35px;
+    line-height: 178.7%;
+    align-items: center;
+  
+    border-radius: 21px;
+  
+    letter-spacing: 0.04em;
+  
+    color: #000000;
+  }
+  
+  .rect2 {
+    border-radius: 21px;
+    color: white;
+    border: 2px solid white;
+  }
+  .rect3 {
+    color: white;
+    border: 2px solid white;
+    border-radius: 21px;
+  }
+  .information {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    margin-top: 50px;
+    margin-left: 54px;
+    letter-spacing: 0.105em;
+  }
+  .details b {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0.105em;
+    margin-left: 84px;
+    color: #04285a;
+  }
+  .details span {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+  
+    color: #143565;
+  }
+  
+  @media screen and (max-width: 772px) {
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      align-self: flex-end;
+      padding: 50px;
+      width: 100vw;
+      position: absolute;
+      height: 75px;
+    }
+    .middle {
+      padding-top: 200px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .symbol {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 100px;
+      margin-top: -5px;
+      padding-top: 30px;
+      gap: 50px;
+    }
+    .form {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      border: chartreuse 3px solid;
+      /* width: 300px; */
+    }
+    .info {
+      width: 375px;
+      background-color: aquamarine;
+    }
+    .card1,
+    .card2,
+    .card3,{
+      width: 250px;
+      padding-top: 10px;
+    }
+    .rectangle {
+    }
+  
+    .img img {
+      width: 300px;
+      height: 400px;
+      margin-left: 75px;
+    }
+    .para {
+      height: 300px;
+    }
+    .container {
+      padding-top: -10px;
+      margin-top: -50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+    .boy1,
+    .boy2,
+    .boy3,
+    .boy4, {
+      /* width: 250px; */
+    }
+  }
+  
+ 
+ 
